@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Наш ресторан</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo.svg" alt="" width="100" />
+      <!-- <svg class="logo" width="100" height="68">
+        <use href="./images/logo.svg"></use>
+      </svg> -->
+
+      <nav>
+        <ul class="list nav-main">
+          <li class="item">
+            <a href="" class="link link-nav-main">Главная</a>
+          </li>
+          <li class="item"><a href="" class="link link-nav-main">Меню</a></li>
+          <li class="item"><a href="" class="link link-nav-main">О нас</a></li>
+          <li class="item"><a href="" class="link link-nav-main">Бронь</a></li>
+        </ul>
+      </nav>
+
+      <a href="" class="link link-cart">Корзина</a>
+
+      <div class="phone">
+        <a href="tel:+9998887654" class="link link-phone">+999-888-76-54</a>
+        <p>Свяжитесь с нами для бронирования</p>
+      </div>
+
+      <button class="btn" type="button">Заказ столика</button>
+    </header>
+    <main>
+      <!-- Section Hero   -->
+      <section class="section section-hero">
+        <div class="container container-hero">
+          <h1 class="title title-hero">
+            <span class="title-hero-accent">Добро пожаловать</span><br />
+            в Наш ресторан
+          </h1>
+          <p class="text-hero">Дом лучшей еды</p>
+          <button class="btn bth-hero" type="button">VIEW MENU</button>
+        </div>
+      </section>
+
+      <!-- Section Intro -->
+      <section class="section intro">
+        <div class="container">
+          <h2 class="title visually-hidden">Вступ</h2>
+          <ul class="list list-intro">
+            <li class="item item-intro">
+              <h3 class="title-intro">
+                Магическая <span class="title-intro-accent">Атмосфера</span>
+              </h3>
+              <p class="text-intro">
+                В нашем заведении царит магическая атмосфера наполненная
+                вкусными ароматами
+              </p>
+            </li>
+            <li class="item item-intro">
+              <h3 class="title-intro">
+                Лучшее качество <span class="title-intro-accent">Еды</span>
+              </h3>
+              <p class="text-intro">Качество нашей Еды - отменное!</p>
+            </li>
+            <li class="item item-intro">
+              <h3 class="title-intro">
+                Недорогая <span class="title-intro-accent">Еда</span>
+              </h3>
+              <p class="text-intro">
+                Стоимость нашей Еды зависит только от ее количества. Качество
+                всегда на высоте!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- section Out Story -->
+      <section class="section">
+        <h2 class="title">Наша <span class="title-accent">История</span></h2>
+        <p>
+          Как и у любого другого самобытного места, у нас есть своя, особая
+          история. Идея ресторана пришла основателям неожиданно. Во время
+          прогулки по лесу создатель нашего ресторана застрял в сотнях
+          километров от ближайшего населенного пункта. Вдали от цивилизации и
+          связи им пришлось навремя обустровать себе нехитрый быт, добывать и
+          готовить себе еду.
+        </p>
+        <ul class="list">
+          <li class="item">
+            <p>93</p>
+            <p>Напитки</p>
+          </li>
+          <li class="item">
+            <p>206</p>
+            <p>Еда</p>
+          </li>
+          <li class="item">
+            <p>71</p>
+            <p>Закуски</p>
+          </li>
+        </ul>
+        <ul class="list">
+          <li class="item">
+            <img src="./images/our-story-1.jpg" alt="Каша" width="233" />
+          </li>
+          <li class="item">
+            <img src="./images/our-story-2.jpg" alt="Торт" width="255" />
+          </li>
+          <li class="item">
+            <img src="./images/our-story-3.jpg" alt="Столик" width="254" />
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section Baner -->
+      <section class="section">
+        <h2 class="title">Отпразднуйте в одном из самых лучших ресторанов.</h2>
+        <p>Только в этом месяце бизнес-ланч от 250 ₽</p>
+        <button class="btn" type="button">Заказ столика</button>
+      </section>
+    </main>
+
+    <!-- Section Our Dish -->
+    <section class="section">
+      <h2 class="title">Наши <span class="title-accent">Блюда</span></h2>
+      <img src="./images/our-dish.jpg" alt="Пица" width="711" />
+      <ul class="list">
+        <li class="item">
+          <img
+            src="/images/our-dish-item1.jpg"
+            alt="Гамбургер мини"
+            width="160"
+          />
+          <p>Гамбургер мини</p>
+          <p>220 ₽</p>
+        </li>
+        <li class="item">
+          <img
+            src="/images/our-dish-item1.jpg"
+            alt="Гамбургер мини"
+            width="160"
+          />
+          <p>Гамбургер мини</p>
+          <p>220 ₽</p>
+        </li>
+        <li class="item">
+          <img
+            src="/images/our-dish-item1.jpg"
+            alt="Гамбургер мини"
+            width="160"
+          />
+          <p>Гамбургер мини</p>
+          <p>220 ₽</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Secrion Our Meny -->
+    <section class="section">
+      <h2 class="title title-our-menu">Наше меню</h2>
+      <ul class="list">
+        <li class="item">
+          <img
+            src="./images/our-menu-1.jpg"
+            alt="Гамбургер макси"
+            width="255"
+          />
+          <p>420</p>
+          <h3>Гамбургер макси</h3>
+          <p>Максимально толстый слой мяса</p>
+          <button class="btn" type="button">Заказ</button>
+        </li>
+        <li class="item">
+          <img
+            src="./images/our-menu-1.jpg"
+            alt="Гамбургер макси"
+            width="255"
+          />
+          <p>420</p>
+          <h3>Гамбургер макси</h3>
+          <p>Максимально толстый слой мяса</p>
+          <button class="btn" type="button">Заказ</button>
+        </li>
+        <li class="item">
+          <img
+            src="./images/our-menu-1.jpg"
+            alt="Гамбургер макси"
+            width="255"
+          />
+          <p>420</p>
+          <h3>Гамбургер макси</h3>
+          <p>Максимально толстый слой мяса</p>
+          <button class="btn" type="button">Заказ</button>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section Testomonial -->
+    <section class="section">
+      <h2 class="visually-hidden">Отзывы</h2>
+      <p>
+        Я надолго запомню мой День рождения, проведённый в этом ресторане!
+        Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде
+        фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и
+        родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+      </p>
+      <img src="./images/testomonial.jpg" alt="Усатый человек" width="100" />
+      <p>Посетитель</p>
+      <p>Николай></p>
+    </section>
+
+    <!-- section Food Gallery -->
+    <section class="section">
+      <h2 class="title">Галерея <span class="title-accent">Блюд</span></h2>
+      <ul class="list">
+        <li class="item">
+          <img
+            src="./images/food-gallery-1.jpg"
+            alt="Сервированный стол"
+            width="555"
+          />
+        </li>
+        <li class="item">
+          <img src="./images/food-gallery-2.jpg" alt="Капучино" width="255" />
+        </li>
+        <li class="item">
+          <img src="./images/food-gallery-3.jpg" alt="Борщ" width="253" />
+        </li>
+        <li class="item">
+          <img src="./images/food-gallery-4.jpg" alt="Капучино" width="255" />
+        </li>
+        <li class="item">
+          <img src="./images/food-gallery-5.jpg" alt="Борщ" width="253" />
+        </li>
+        <li class="item">
+          <img
+            src="./images/food-gallery-6.jpg"
+            alt="Сервированный стол"
+            width="555"
+          />
+        </li>
+      </ul>
+    </section>
+    <!-- section Oer Shef -->
+    <section class="section">
+      <h2 class="title">Наши <span class="title-accent">Повара</span></h2>
+      <ul class="list">
+        <li class="item">
+          <img src="/images/our-chef-1.jpg" alt="Повар 1" width="350" />
+        </li>
+        <li class="item">
+          <img src="/images/our-chef-2.jpg" alt="Повар 2" width="350" />
+        </li>
+        <li class="item">
+          <img src="/images/our-chef-3.jpg" alt="Повар 3" width="350" />
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <div class="baner">
+        <h2 class="visually-hidden">Банер</h2>
+      </div>
+    </footer>
+  </body>
+</html>

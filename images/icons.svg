@@ -1,0 +1,17 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="icon-cart" viewBox="0 0 32 32">
+      <path d="M-3.2-4.379h49.179v42.105H-3.2V-4.379z"/>
+    </symbol>
+    <symbol id="icon-dish" viewBox="0 0 32 32">
+      <path d="M-5.885-4.782H40.46v38.253H-5.885V-4.782z"/>
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 32 32">
+      <path d="M-12.606-113.454h181.333V54.304H-12.606v-167.758z"/>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 47 32">
+      <path stroke-width="1.412" d="M.998 15.991 15.991.998l14.993 14.993-14.993 14.993z"/>
+      <path stroke-width="1.412" d="M16.075 15.991 31.068.998l14.993 14.993-14.993 14.993z"/>
+    </symbol>
+  </defs>
+</svg>
