@@ -82,6 +82,8 @@ img {
   font-size: 14px;
   line-height: 1.36;
   text-transform: uppercase;
+
+  border: none;
 }
 
 .container {
@@ -106,7 +108,19 @@ img {
   font-size: 14px;
   line-height: 1.36;
 }
+
+.logo {
+  fill: transparent;
+  stroke: #f44336;
+}
+
+.wrapper-header {
+  display: flex;
+}
+
 .nav-main {
+  display: flex;
+  margin-left: 268px;
   /* color: var(--white-color); */
 }
 
@@ -117,7 +131,12 @@ img {
 }
 
 .link-cart {
+  margin-left: 36px;
   color: inherit;
+}
+
+.phone {
+  margin-left: 52px;
 }
 
 .link-phone {
@@ -125,6 +144,15 @@ img {
 
   font-size: 18px;
   line-height: 1.39;
+}
+.link-phone::before {
+  content: "k";
+}
+
+.bth-header {
+  margin-left: 45px;
+  margin-top: 10px;
+  height: 47px;
 }
 
 /**
@@ -175,7 +203,7 @@ img {
 }
 
 .container-hero {
-  padding: 322px 540px 231px 9px;
+  padding: 322px 540px 231px 15px;
 }
 
 .text-hero {
